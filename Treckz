@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Treckz Hoodies</title>
+
+  <!-- Cursive font -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f0f0f;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      background: #000;
+      padding: 20px;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 30px;
+    }
+
+    .hoodie {
+      background: #1a1a1a;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 15px;
+      width: 260px;
+      box-shadow: 0 0 15px rgba(255,255,255,0.1);
+      transition: 0.3s;
+    }
+
+    .hoodie:hover {
+      transform: scale(1.05);
+    }
+
+    .hoodie-front {
+      background: #2a2a2a;
+      height: 180px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hoodie-back {
+      background: #2a2a2a;
+      height: 180px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .treckz-text {
+      font-family: 'Pacifico', cursive;
+      font-size: 32px;
+      color: #ff4da6;
+    }
+
+    footer {
+      background: #000;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  🧥 Treckz Hoodies
+</header>
+
+<div class="container">
+
+  <div class="hoodie">
+    <h3>Black Hoodie</h3>
+
+    <div class="hoodie-front">
+      <p>Front</p>
+    </div>
+
+    <div class="hoodie-back">
+      <div class="treckz-text">Treckz</div>
+    </div>
+
+  </div>
+
+  <div class="hoodie">
+    <h3>Grey Hoodie</h3>
+
+    <div class="hoodie-front">
+      <p>Front</p>
+    </div>
+
+    <div class="hoodie-back">
+      <div class="treckz-text">Treckz</div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  <p>Designed by Ahmed 🔥</p>
+</footer>
+
+</body>
+</html>
